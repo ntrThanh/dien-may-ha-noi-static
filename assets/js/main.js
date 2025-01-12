@@ -34,3 +34,33 @@ function showSlides(n) {
   // Hiển thị slide hiện tại
   slides[slideIndex - 1].style.display = "block"; // Hiển thị slide theo slideIndex
 }
+
+
+
+// JavaScript để kiểm tra vị trí cuộn và hiển thị nút điện thoại
+window.addEventListener("scroll", function () {
+  const phoneButton = document.getElementById("zaloButton");
+  const viewportHeight = window.innerHeight;
+  const scrollPosition = window.scrollY || window.pageYOffset;
+
+  if (scrollPosition >= viewportHeight / 3) {
+    phoneButton.classList.add("show");
+  } else {
+    phoneButton.classList.remove("show");
+  }
+});
+
+var $j = jQuery.noConflict();
+
+// JavaScript để kiểm tra vị trí cuộn và hiển thị nút điện thoại
+window.addEventListener("scroll", function () {
+  const phoneButton = document.getElementById("");
+  const viewportHeight = window.innerHeight;
+  const scrollPosition = window.scrollY || window.pageYOffset;
+
+  if (scrollPosition >= viewportHeight / 3) {
+    phoneButton.classList.add("show");
+  } else {
+    phoneButton.classList.remove("show");
+  }
+});
