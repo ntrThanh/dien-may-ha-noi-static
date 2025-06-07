@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sửa chữa máy giặt Electrolux</title>
+    <link rel="stylesheet" href="../../static/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../static/css/base.css">
+
+    <style>
+        #button-contact-vr {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 9999;
+        }
+
+        .phone-vr {
+            position: relative;
+            width: 60px;
+            height: 60px;
+        }
+
+        .phone-vr-circle-fill {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            position: absolute;
+            animation: pulse 1.5s infinite;
+            background-color: #f20000;
+            opacity: 0.7;
+            box-shadow: 0 0 0 0 #f20000;
+        }
+
+        .phone-vr-img-circle {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: #f20000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .phone-bar {
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .phone-bar a {
+            background-color: #f20000;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+
+        .phone-bar {
+            margin-left: -30px;
+        }
+
+
+        /* Hiệu ứng nhấp nháy */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 0.7;
+            }
+
+            50% {
+                transform: scale(1.2);
+                opacity: 0.3;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 0.7;
+            }
+        }
+
+        #gom-all-in-one {
+            display: flex;
+        }
+
+        .phone-bar {
+            margin-left: -30px;
+        }
+
+        .text-phone {
+            margin-left: 30px;
+        }
+
+        @keyframes pulse-strong {
+            0% {
+                transform: scale(1);
+                opacity: 0.6;
+            }
+
+            50% {
+                transform: scale(1.7);
+                opacity: 0.2;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 0.6;
+            }
+        }
+
+
+        @keyframes shake {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            25% {
+                transform: rotate(15deg);
+            }
+
+            50% {
+                transform: rotate(-15deg);
+            }
+
+            75% {
+                transform: rotate(10deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        .phone-icon-shake {
+            animation: shake 0.6s infinite;
+        }
+
+        @media (max-width: 768px) {
+            .phone-bar {
+                display: none;
+            }
+        }
+
+        .zalo {
+            background-color: #1E73BE;
+        }
+
+
+        .phone-bar-zalo {
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .phone-bar-zalo a {
+            background-color: #1E73BE;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+#button-contact-vr {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+}
+
+.phone-vr {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.phone-vr-circle-fill {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    animation: pulse 1.5s infinite;
+    background-color: #f20000;
+    opacity: 0.7;
+    box-shadow: 0 0 0 0 #f20000;
+}
+
+.phone-vr-img-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #f20000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-bar {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.phone-bar a {
+    background-color: #f20000;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.phone-bar {
+    margin-left: -30px;
+}
+
+
+/* Hiệu ứng nhấp nháy */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+}
+
+#gom-all-in-one {
+    display: flex;
+}
+
+.phone-bar {
+    margin-left: -30px;
+}
+
+.text-phone {
+    margin-left: 30px;
+}
+
+@keyframes pulse-strong {
+    0% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+
+    50% {
+        transform: scale(1.7);
+        opacity: 0.2;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+}
+
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(15deg);
+    }
+
+    50% {
+        transform: rotate(-15deg);
+    }
+
+    75% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.phone-icon-shake {
+    animation: shake 0.6s infinite;
+}
+
+@media (max-width: 768px) {
+    .phone-bar {
+        display: none;
+    }
+}
+
+.zalo {
+    background-color: #1E73BE;
+}
+
+
+.phone-bar-zalo {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.phone-bar-zalo a {
+    background-color: #1E73BE;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.phone-bar-zalo {
+    margin-left: -30px;
+}
+
+
+.phone-vr-circle-fill-zalo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    animation: pulse 1.5s infinite;
+    background-color: #3a93ac;
+    opacity: 0.7;
+    box-shadow: 0 0 0 0 #1e6772;
+}
+
+
+        .phone-bar-zalo {
+            margin-left: -30px;
+        }
+
+
+        .phone-vr-circle-fill-zalo {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            position: absolute;
+            animation: pulse 1.5s infinite;
+            background-color: #3a93ac;
+            opacity: 0.7;
+            box-shadow: 0 0 0 0 #1e6772;
+        }
+    </style>
+</head>
+
+<body>
+    <my-header></my-header>
+
+    <main>
+
+        <div class="container my-5">
+            <h1 class="fw-bold mb-4">Trung tâm bảo hành và sửa chữa máy giặt Electrolux Hà Nội</h1>
+            <div class="space"></div>
+
+            <h3 class="text-center text-primary mb-4">
+                TRUNG TÂM BẢO HÀNH VÀ SỬA CHỮA MÁY GIẶT Electrolux TẠI HÀ NỘI<br>
+                <span class="text-danger font-weight-bold">UY TÍN – CHUYÊN NGHIỆP</span>
+
+                <br>
+
+                <span class="text-danger font-weight-bold">HOTLINE: 0974505838</span>
+            </h3>
+
+            <p>
+                Trong kỷ nguyên của thế giới công nghệ số. Thương hiệu Electrolux ngày càng thành công và phát triểu hơn khi tạo
+                ra nhiều thiết bị hiện đại phục vụ cho đời sống con người, đem đến sự tiện lợi và làm cuộc sống trở nên
+                có ý nghĩa hơn.
+                Song song đó, Electrolux luôn có chế độ bảo hành và chăm sóc khách hàng rất chu đáo trên khắp 64 tỉnh thành tại
+                VN.
+            </p>
+
+            <p>
+                Máy giặt Electrolux cũng rất được ưa chuộng nhờ sự thiết kế độc đáo và cấu tạo hết sức đặc biệt. Với công nghệ
+                hơi nước hiện đại giúp cho việc sử dụng nước hiệu quả đến 44%, giảm bớt quá trình tiêu hao điện năng đến
+                51%.
+                Hơn nữa điều này cũng sẽ giúp cho bạn giặt được nhiều đồ hơn với tải lượng ít hơn.
+            </p>
+
+            <div class="text-center mt-5">
+                <img src="https://baohanhelectroluxhanoi.vn/wp-content/uploads/2017/10/slide_2-1024x375.png"
+                    class="img-fluid text-center" alt="Responsive image">
+            </div>
+
+            <h4 class="mt-5">Trung tâm bảo hành và sửa chữa máy giặt Electrolux bảo vệ người tiêu dùng tối đa</h4>
+
+            <p>
+                Đối với các thiết bị điện máy, dù là nhiều thương hiệu lớn mạnh đã được khẳng định về chất lượng như Electrolux,
+                Sanyo, Panasonic, Toshiba… Thì cũng không tránh khỏi những sự cố vào một ngày nào đó.
+            </p>
+
+            <p>
+                Chính vì thế tại thị trường Việt Nam. Electrolux thiết lập hệ thống Trung tâm bảo hành và sửa chữa rộng khắp,
+                trong đó có nhiều đơn vị sửa chữa máy giặt Electrolux để bảo vệ quyền lợi cho khách hàng cao nhất, tốt nhất.
+            </p>
+
+            <p>
+                Hiện nay, để tìm kiếm dịch vụ sửa máy giặt Electrolux không quá khó. Tuy nhiên điều đáng nói, là đã xuất hiện
+                nhiều nơi làm việc không uy tín, thiếu trách nhiệm, làm ảnh hưởng tương đối lớn đến niềm tin của khách
+                hàng.
+                Nhiều khi một số nhỏ thành phần ấy lại đánh đồng luôn cả những nơi làm việc cực kỳ uy tín.
+            </p>
+
+            <p>
+                Để thuận lợi hơn trong việc chăm sóc khách hàng tại khu vực phía Bắc. Electrolux đã có Trung tâm bảo hành các
+                thiết bị và sản phẩm của Electrolux trên nhiều quận huyện trên địa bàn TP. Hà Nội.
+                Tiếp nhận và xử lý những yêu cầu từ khách hàng ở tất cả các quận trong nhanh và chuyên nghiệp nhất.
+            </p>
+
+            <p>
+                Giờ thì người tiêu dùng không còn phải lo ngại gì nữa vì đã có Trung tâm bảo hành và sửa chữa máy giặt
+                Electrolux tại Hà Nội phục vụ bạn và đứng ra cam kết về chất lượng,
+                để quý khách luôn yên tâm với quyết định của mình mỗi khi có nhu cầu. Và hãy gọi về cho chúng tôi theo
+                số tổng đài sau <strong>0974505838</strong> (Tổng đài mở 24/7).
+            </p>
+            <div class="text-center mt-5">
+                <img src="https://baohanhelectroluxhanoi.vn/wp-content/uploads/2017/10/electrolux-service-center-in-hanoi-1024x375.png"
+                    class="img-fluid text-center" alt="Responsive image">
+            </div>
+
+            <h4 class="mt-5">Chúng tôi chuyên tiếp nhận sửa chữa máy giặt Electrolux các lỗi sau:</h4>
+            <ul>
+                <li>Máy giặt Electrolux không kết nối được nguồn điện hoặc không hoạt động dù có nguồn điện</li>
+                <li>Sửa máy giặt Electrolux sấy không khô. Hay thậm chí không thực hiện được chức năng sấy</li>
+                <li>Máy giặt Electrolux khi giặt bị kêu và rung lắc mạnh, va đập thùng, đặc biệt trong quá trình vắt</li>
+                <li>Máy giặt Electrolux không cấp nước, cấp nước yếu. Máy không xả nước hay xả nước đột ngột</li>
+                <li>Máy giặt Electrolux không giặt đúng chức năng. Khi vừa cấp nước, vừa giặt lại vừa xả nước ra</li>
+                <li>Máy giặt Electrolux bị liệt bàn phím, phím bấm không ăn hoặc bị loạn phím, bị hư Board mạch</li>
+                <li>Máy giặt Electrolux giặt quá lâu nhưng lại không sạch, đồ giặt xong dính nhiều cặn và mùi hôi</li>
+                <li>Máy giặt Electrolux ngưng hoạt động bất thường và không ổn định, giặt được một lúc rồi đứng</li>
+                <li>Bảo hành Máy giặt Electrolux hư phuộc nhún, hư bạc đàn, công tắc cửa, đứt dây curoa… vv</li>
+            </ul>
+
+
+            <div class="text-center mt-5">
+                <img src="https://dienmaychinhhang-baohanh.com/static/img/logo/may-giat/Pasted%20image%20(6).png"
+                    class="img-fluid text-center" alt="Responsive image">
+            </div>
+            <p>
+                Trung tâm sửa chữa máy giặt Electrolux tại Hà Nội sẽ giải quyết nhanh chóng cho bạn dù máy giặt của bạn có gặp
+                bất cứ trục trặc nào chỉ cần bạn nhấc máy và gọi cho chúng tôi là đủ.
+            </p>
+
+            <h4 class="mt-5">Đôi nét về trung tâm bảo hành và sửa chữa máy giặt Electrolux tại Hà Nội</h4>
+
+            <div class="text-center mt-5">
+                <img src="https://dienmaychinhhang-baohanh.com/static/img/logo/may-giat/Pasted%20image%20(7).png"
+                    class="img-fluid text-center" alt="Responsive image">
+            </div>
+            <h5>Trung tâm bảo hành và sửa chữa máy giặt Electrolux tại Hà Nội chính hãng</h5>
+
+            <p>
+                Trung tâm bảo hành và sửa chữa Electrolux là địa chỉ bảo hành chính hãng và tin vậy của nhiều thương hiệu lớn.
+                Trong đó có thương hiệu Electrolux.
+                Từ máy giặt Electrolux, máy lạnh Electrolux, lò vi sóng Electrolux, máy nước nóng Electrolux, tủ lạnh Electrolux…vv. Chúng tôi đều tiếp nhận
+                nhanh chóng và bảo hành đúng quy định.
+            </p>
+
+            <p>
+                Chúng tôi có cơ sở vật chất, trang thiết bị đầy đủ, tối tân và hiện đại nhằm phục vụ cho công việc bảo
+                hành và sửa chữa những sản phẩm ngành điện lạnh được nhanh chóng hơn, phục vụ quý khách hàng được tốt
+                hơn.
+            </p>
+
+            <p>
+                Trung tâm bảo hành và sửa chữa máy giặt Electrolux tại Hà Nội sẽ có nghĩa vụ tiếp nhận và bảo hành miễn phí máy
+                giặt Electrolux của khách hàng theo đúng quy định nếu sản phẩm của bạn còn hạn bảo hành và giấy bảo hành hợp lệ.
+            </p>
+
+            <p>
+                Trong trường hợp máy giặt Electrolux của bạn đã hết bảo hành, chúng tôi vẫn sẽ bảo hành và sửa chữa cho bạn và
+                mức chi phí sẽ được tính theo đơn giá gốc của hãng hàng đưa ra.
+            </p>
+
+            <p>
+                Với dịch sửa máy giặt tại nhà mà Trung tâm bảo hành và sửa chữa máy giặt Electrolux tại Hà Nội cung cấp.
+                Bạn chỉ cần gọi <strong>0824448111 – 0963990033</strong> và chúng tôi đến tận nơi để sửa chữa mà không
+                phải đem sản phẩm đến trung tâm.
+            </p>
+
+            <p>
+                Cam kết xử lý được tất cả các sự cố hư hỏng mà máy giặt Electrolux của bạn đang gặp phải và sẽ hỗ trợ làm vệ
+                sinh máy giặt theo đúng tiêu chuẩn để máy hoạt động tốt nhất, hạn chế hư hỏng.
+            </p>
+
+            <p>
+                Tất cả nhân viên tại Trung tâm bảo hành và sửa chữa máy giặt Electrolux tại Hà Nội đều được đào tạo chuyên
+                nghiệp từ Electrolux.
+                Từ nhân viên tư vấn đến kỹ thuật viên đều có kiến thức chuyên môn giỏi, nhanh nhẹn, nhạy bén và lịch sự.
+            </p>
+
+            <p>
+                Nhân viên hành chính có nhiệm vụ sẽ tiếp nhận thông tin của khách hàng mọi lúc, mọi nơi 24/7.
+                Vì vậy, quý khách có thể liên hệ bất cứ thời gian nào và có thể chủ động được thời gian của mình.
+            </p>
+
+            <p>
+                Đặc biệt, nhân viên kỹ thuật sẽ tiếp cận địa chỉ khách hàng trong khoảng 30 phút để kiểm tra miễn phí sự
+                cố,
+                chuẩn đoán chính xác căn bệnh của máy giặt và có phương án giải quyết tối ưu và triệt để nhất.
+            </p>
+
+            <p>
+                Quá trình sửa chữa máy giặt Electrolux nhanh chóng và chuyên nghiệp.
+                Đồng thời mọi thiết bị thay thế đều do chính hãng sản xuất Electrolux cung cấp, đảm bảo 100% chất lượng.
+            </p>
+            <div class="text-center mt-5">
+                <img src="https://ntrthanh.github.io/bao-hanh-dien-may-ha-noi/static/img/logo/may-giat/Pasted%20image.png"
+                    class="img-fluid text-center" alt="Responsive image">
+            </div>
+
+            <h5 class="mt-4">Những ưu điểm của chúng tôi:</h5>
+            <ul>
+                <li>Chúng tôi sẽ có mặt ngay trong vòng 15 – 30 phút kể từ khi bạn gọi để có thể nhanh chóng kiểm tra và
+                    sửa chữa ngay cho máy giặt của bạn.</li>
+                <li>Trung tâm tự tin khi nhận định rằng mình là dịch vụ uy tín, 100% cam kết sửa chữa được nhưng có mức
+                    phí rẻ nhất trong thị trường.</li>
+                <li>Quý khách có thể kiểm tra tem bảo hành, nguồn gốc của linh kiện (xuất xứ chính hãng) trước khi thợ
+                    sửa chữa để an tâm về dịch vụ.</li>
+                <li>Chúng tôi cam kết chỉ thu tiền khi máy giặt đã hoạt động lại bình thường.</li>
+                <li>Chúng tôi sẽ liệt kê từng khoảng phí và cam đoan sẽ không có phí phát sinh nào thêm ngoại trừ tiền
+                    công của thợ sửa.</li>
+            </ul>
+
+            <p>
+                Trung tâm bảo hành và sửa chữa máy giặt Electrolux tại Hà Nội chính là địa chỉ đáng tin cậy và chất lượng nhất
+                hiện nay để quý khách hàng có thể yên tâm tin tưởng và đồng hành. Chân Thành Cảm ơn!
+            </p>
+
+            <p class="font-weight-bold">
+                Khi máy giặt Electrolux của bạn gặp sự cố gì hãy liên hệ với chúng tôi qua những thông tin sau:
+            </p>
+
+            <p class="h4 text-danger font-weight-bold">
+                Hotline: 0974505838
+            </p>
+        </div>
+
+    </main>
+
+
+    <!-- Nút gọi điện thoại nổi -->
+    <div id="button-contact-vr" class="active">
+        <div id="gom-all-in-one" style="margin-bottom: 10px">
+            <!-- Phone -->
+            <div id="phone-vr" class="button-contact">
+                <div class="phone-vr">
+                    <div class="phone-vr-circle-fill"></div>
+                    <div class="phone-vr-img-circle">
+                        <a href="tel:0974505838">
+                            <i class="fas fa-phone fa-xl phone-icon-shake" style="color: white;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="phone-bar">
+                <a href="tel:0974505838">
+                    <span class="text-phone">0974505838</span>
+                </a>
+            </div>
+            <!-- End Phone -->
+
+        </div>
+
+        <div id="gom-all-in-one">
+            <!-- zalo -->
+            <div id="phone-vr" class="button-contact">
+                <div class="phone-vr">
+                    <div class="phone-vr-circle-fill-zalo"></div>
+                    <div class="phone-vr-img-circle zalo">
+                        <a href="https://zalo.me/0974505838">
+                            <img class="phone-icon-shake" src="https://ntrthanh.github.io/bao-hanh-dien-may-ha-noi/static/img/icon/zalo.png" alt=""
+                                style="height: 50px; width: 50px; margin: 0px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="phone-bar phone-bar-zalo">
+                <a href="https://zalo.me/0974505838">
+                    <span class="text-phone">Zalo: 0974505838</span>
+                </a>
+            </div>
+            <!-- End Phone -->
+
+        </div>
+    </div>
+
+
+
+    <my-footer style="bottom: 0;"></my-footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../../static/js/component.js"></script>
+</body>
+
+</html>
