@@ -1,809 +1,1145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Dịch vụ sửa chữa, bảo hành tủ lạnh Hitachi tại Hà Nội - Uy tín, chất lượng, nhanh chóng và giá cả hợp lý.">
-    <meta name="keywords" content="sửa tủ lạnh Hitachi, bảo hành tủ lạnh Hitachi, sửa chữa tủ lạnh tại Hà Nội, dịch vụ sửa tủ lạnh">
-    <meta name="author" content="Điện Máy Hà Nội">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Dịch vụ sửa chữa, bảo hành tủ lạnh Hitachi">
-    <meta property="og:description" content="Chuyên sửa chữa và bảo hành tủ lạnh Hitachi tại nhà, phục vụ tận nơi, nhanh chóng và chuyên nghiệp.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:url" content="https://baohanhdienmayhanoi.com.vn/">
-    <meta property="og:image" content="https://baohanhdienmayhanoi.com.vn//assets/img/picture/image.png">
-    <meta property="og:image" content="https://baohanhdienmayhanoi.com.vn//assets/img/image.png">
-    <meta property="og:image" content="https://baohanhdienmayhanoi.com.vn//assets/img/picture/banner/banner-hitachi.png">
-    <title>Điện máy Hà Nội</title>
-    <link rel="stylesheet" href="assets/css/library/library-responsive.css" />
-    <link rel="stylesheet" href="assets/css/main/base.css" />
-    <link rel="stylesheet" href="assets/css/main/main.css" />
-    <link rel="stylesheet" href="assets/css/main/responsive.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" type="image/png" href="assets/img/picture/Ingoude Company.png">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/img/icon/fontawesome-free-6.6.0-web/css/all.css"
-    />
-    <link rel="stylesheet" href="assets/js/main.js" />
-  </head>
-  <body>
-    <header>
-      <div class="header__container">
-        <div class="grid wide">
-          <div class="header__container-top">
-            <div class="container__top-left"></div>
-            <div class="container__top-right">
-              <div class="container__top-img">
-                <a href=""
-                  ><img src="assets/img/picture/Ingoude Company.png" alt=""
-                /></a>
-                <span class="container__top-lable">
-                  <a href=""><h1>HITACHI services</h1></a>
-                </span>
-              </div>
 
-              <div class="container__top-menu">
-                <ul class="top__menu">
-                  <li class="top__menu-item">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description"
+    content="Dịch vụ sửa chữa, bảo hành tủ lạnh Hitachi tại Hà Nội - Uy tín, chất lượng, nhanh chóng và giá cả hợp lý.">
+  <meta name="keywords"
+    content="sửa tủ lạnh Hitachi, bảo hành tủ lạnh Hitachi, sửa chữa tủ lạnh tại Hà Nội, dịch vụ sửa tủ lạnh">
+  <meta name="author" content="Điện Máy Hà Nội">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Dịch vụ sửa chữa, bảo hành tủ lạnh Hitachi">
+  <meta property="og:description"
+    content="Chuyên sửa chữa và bảo hành tủ lạnh Hitachi tại nhà, phục vụ tận nơi, nhanh chóng và chuyên nghiệp.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:url" content="https://baohanhdienmayhanoi.com.vn/">
+  <meta property="og:image" content="https://baohanhdienmayhanoi.com.vn//assets/img/picture/image.png">
+  <meta property="og:image" content="https://baohanhdienmayhanoi.com.vn//assets/img/image.png">
+  <meta property="og:image" content="https://baohanhdienmayhanoi.com.vn//assets/img/picture/banner/banner-hitachi.png">
+  <title>Điện máy Hà Nội</title>
+  <link rel="stylesheet" href="assets/css/library/library-responsive.css" />
+  <link rel="stylesheet" href="assets/css/main/base.css" />
+  <link rel="stylesheet" href="assets/css/main/main.css" />
+  <link rel="stylesheet" href="assets/css/main/responsive.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" type="image/png" href="assets/img/picture/Ingoude Company.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="assets/img/icon/fontawesome-free-6.6.0-web/css/all.css" />
+  <link rel="stylesheet" href="assets/js/main.js" />
+
+  <style>
+    #button-contact-vr {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 9999;
+    }
+
+    .phone-vr {
+      position: relative;
+      width: 60px;
+      height: 60px;
+    }
+
+    .phone-vr-circle-fill {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: absolute;
+      animation: pulse 1.5s infinite;
+      background-color: #f20000;
+      opacity: 0.7;
+      box-shadow: 0 0 0 0 #f20000;
+    }
+
+    .phone-vr-img-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: absolute;
+      background-color: #f20000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .phone-bar {
+      margin-top: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .phone-bar a {
+      background-color: #f20000;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+
+    .phone-bar {
+      margin-left: -30px;
+    }
+
+
+    /* Hiệu ứng nhấp nháy */
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 0.7;
+      }
+
+      50% {
+        transform: scale(1.2);
+        opacity: 0.3;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 0.7;
+      }
+    }
+
+    #gom-all-in-one {
+      display: flex;
+    }
+
+    .phone-bar {
+      margin-left: -30px;
+    }
+
+    .text-phone {
+      margin-left: 30px;
+    }
+
+    @keyframes pulse-strong {
+      0% {
+        transform: scale(1);
+        opacity: 0.6;
+      }
+
+      50% {
+        transform: scale(1.7);
+        opacity: 0.2;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 0.6;
+      }
+    }
+
+
+    @keyframes shake {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      25% {
+        transform: rotate(15deg);
+      }
+
+      50% {
+        transform: rotate(-15deg);
+      }
+
+      75% {
+        transform: rotate(10deg);
+      }
+
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+
+    .phone-icon-shake {
+      animation: shake 0.6s infinite;
+    }
+
+    @media (max-width: 768px) {
+      .phone-bar {
+        display: none;
+      }
+    }
+
+    .zalo {
+      background-color: #1E73BE;
+    }
+
+
+    .phone-bar-zalo {
+      margin-top: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .phone-bar-zalo a {
+      background-color: #1E73BE;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    #button-contact-vr {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 9999;
+    }
+
+    .phone-vr {
+      position: relative;
+      width: 60px;
+      height: 60px;
+    }
+
+    .phone-vr-circle-fill {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: absolute;
+      animation: pulse 1.5s infinite;
+      background-color: #f20000;
+      opacity: 0.7;
+      box-shadow: 0 0 0 0 #f20000;
+    }
+
+    .phone-vr-img-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: absolute;
+      background-color: #f20000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .phone-bar {
+      margin-top: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .phone-bar a {
+      background-color: #f20000;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+
+    .phone-bar {
+      margin-left: -30px;
+    }
+
+
+    /* Hiệu ứng nhấp nháy */
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 0.7;
+      }
+
+      50% {
+        transform: scale(1.2);
+        opacity: 0.3;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 0.7;
+      }
+    }
+
+    #gom-all-in-one {
+      display: flex;
+    }
+
+    .phone-bar {
+      margin-left: -30px;
+    }
+
+    .text-phone {
+      margin-left: 30px;
+    }
+
+    @keyframes pulse-strong {
+      0% {
+        transform: scale(1);
+        opacity: 0.6;
+      }
+
+      50% {
+        transform: scale(1.7);
+        opacity: 0.2;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 0.6;
+      }
+    }
+
+
+    @keyframes shake {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      25% {
+        transform: rotate(15deg);
+      }
+
+      50% {
+        transform: rotate(-15deg);
+      }
+
+      75% {
+        transform: rotate(10deg);
+      }
+
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+
+    .phone-icon-shake {
+      animation: shake 0.6s infinite;
+    }
+
+    @media (max-width: 768px) {
+      .phone-bar {
+        display: none;
+      }
+    }
+
+    .zalo {
+      background-color: #1E73BE;
+    }
+
+
+    .phone-bar-zalo {
+      margin-top: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .phone-bar-zalo a {
+      background-color: #1E73BE;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+
+    .phone-bar-zalo {
+      margin-left: -30px;
+    }
+
+
+    .phone-vr-circle-fill-zalo {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: absolute;
+      animation: pulse 1.5s infinite;
+      background-color: #3a93ac;
+      opacity: 0.7;
+      box-shadow: 0 0 0 0 #1e6772;
+    }
+
+
+    .phone-bar-zalo {
+      margin-left: -30px;
+    }
+
+
+    .phone-vr-circle-fill-zalo {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: absolute;
+      animation: pulse 1.5s infinite;
+      background-color: #3a93ac;
+      opacity: 0.7;
+      box-shadow: 0 0 0 0 #1e6772;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header__container">
+      <div class="grid wide">
+        <div class="header__container-top">
+          <div class="container__top-left"></div>
+          <div class="container__top-right">
+            <div class="container__top-img">
+              <a href=""><img src="assets/img/picture/Ingoude Company.png" alt="" /></a>
+              <span class="container__top-lable">
+                <a href="">
+                  <h1>HITACHI services</h1>
+                </a>
+              </span>
+            </div>
+
+            <div class="container__top-menu">
+              <ul class="top__menu">
+                <li class="top__menu-item">
+                  <a href="#home">Trang chủ</a>
+                </li>
+
+                <li class="top__menu-item">
+                  <a href="#refer">Giới thiệu</a>
+                </li>
+
+                <li class="top__menu-item">
+                  <a href="#service">Dịch vụ </a>
+                </li>
+
+                <li class="top__menu-item">
+                  <a href="#position">Liên Hệ</a>
+                </li>
+
+                <li class="top__menu-item">
+                  <a href="lg.html">Bảo hành máy giặt LG</a>
+                </li>
+
+                <li class="top__menu-item">
+                  <a href="electrolux.html">Bảo hành máy giặt Electrolux</a>
+                </li>
+              </ul>
+            </div>
+
+            <input type="checkbox" name="" id="check" class="checkbox">
+            <label for="check" class="overlay"></label>
+
+            <label for="check" class="container__top-menu-mobile">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <div class="container__menu-for-mobile">
+              <ul class="menu__list-bar">
+                <div class="container__menu-list">
+                  <li class="menu__list-item">
                     <a href="#home">Trang chủ</a>
                   </li>
 
-                  <li class="top__menu-item">
+                  <div class="space-menu"></div>
+                  <li class="menu__list-item">
                     <a href="#refer">Giới thiệu</a>
                   </li>
+                  <div class="space-menu"></div>
+                  <li class="menu__list-item">
+                    <a href="#service">Dịch vụ</a>
+                  </li>
+                  <div class="space-menu"></div>
+                  <li class="menu__list-item">
+                    <a href="#position">Liên hệ</a>
+                  </li>
+                </div>
+                <li class="menu__list-item back">
+                  <label for="check">Quay lại</label>
+                </li>
 
-                  <li class="top__menu-item">
-                    <a href="#service">Dịch vụ </a>
+                <li class="menu__list-item back">
+                  <a href="lg.html">Bảo hành máy giặt LG</a>
+                </li>
+
+                <li class="menu__list-item back">
+                  <a href="lg.html">Bảo hành máy giặt Electrolux</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__container-bottom"></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="banner">
+    <div class="grid wide">
+      <div class="nav__banner">
+        <div class="nav__banner-slide fade mySlides">
+          <img src="assets/img/picture/banner/Blue and White Geometric Real Estate LinkedIn Background Photo.png"
+            alt="Slide 1" />
+        </div>
+        <div class="nav__banner-slide fade mySlides">
+          <img src="assets/img/picture/banner/Blue Geometric Technology General Professional LinkedIn Banner.png"
+            alt="Slide 2" />
+        </div>
+
+        <div class="nav__banner-slide fade mySlides">
+          <img src="assets/img/picture/banner/banner-hitachi.png" alt="">
+        </div>
+
+        <div class="nav__banner-slide fade mySlides">
+          <img src="assets/img/picture/banner/Contact - hitachi - service.png" alt="">
+        </div>
+        <!-- Navigation buttons -->
+        <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid wide">
+    <div class="row">
+      <div class="col c-12 l-9 m-9">
+        <div class="container__content">
+          <div class="row">
+            <div class="col c-12 l-6 m-6">
+              <h1 id="home">Trung tâm bảo hành tủ lạnh Hitachi</h1>
+
+              <div class="space">
+
+              </div>
+              <p class="container__content-paragraph container__content-paragraph-slogan">
+                Chuyên nghiệp - Uy tín - Giá cạnh tranh
+              </p>
+0974505838
+              <p class="container__content-paragraph">
+                Đội ngũ kỹ thuật viên tay nghề cao, kinh nghiệm sửa tủ lạnh
+                Hitachi tại Hà Nội, chuyên bảo hành và thay thế linh kiện
+                chính hãng, luôn sẵn sàng phục vụ 24/7.
+              </p>
+
+              <p class="container__content-paragraph" style="color: black">
+                Liên hệ ngay:
+              </p>
+
+              <div class="container__content-button">
+                <div class="content__button button-tel">
+                  Hotine:
+                  <a href="tel:0818009318">08.1800.9318</a>
+
+                </div>
+
+                <div class="content__button button-zalo">
+                  <a href="https://zalo.me/0974505838">Tư vấn miễn phí Zalo</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col c-12 l-6 m-6">
+              <div class="">
+                <img src="assets/img/picture/image.png" class="container__content-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container__content">
+          <div class="container__content-lable">
+            <h1 id="service">Dịch vụ sửa chữa và bảo hành Tủ lạnh Hitachi</h1>
+          </div>
+
+          <div class="container__content-refer">
+            <ul class="refer__services">
+              <li class="refer__item even">
+                <span>Dịch vụ sửa chữa chuyên nghiệp</span>
+
+                <p>
+                  Chúng tôi cung cấp dịch vụ sửa chữa tủ lạnh Hitachi uy tín,
+                  nhanh chóng, với đội ngũ kỹ thuật viên giàu kinh nghiệm và
+                  tay nghề cao.
+                </p>
+              </li>
+
+              <li class="refer__item">
+                <span>Chuyên môn sâu về tủ lạnh Hitachi</span>
+
+                <p>
+                  Đội ngũ kỹ thuật viên của chúng tôi đã có nhiều năm kinh
+                  nghiệm trong việc sửa chữa và bảo trì các dòng tủ lạnh
+                  Hitachi, đảm bảo hiệu quả sửa chữa tối ưu.
+                </p>
+              </li>
+
+              <li class="refer__item even">
+                <span>Sử dụng linh kiện chính hãng</span>
+
+                <p>
+                  Đảm bảo sửa chữa bằng linh kiện chính hãng, chất lượng cao,
+                  giúp tủ lạnh hoạt động bền bỉ và ổn định sau khi sửa chữa.
+                </p>
+              </li>
+
+              <li class="refer__item">
+                <span>Dịch vụ sửa chữa tận nơi</span>
+
+                <p>
+                  Với dịch vụ sửa chữa tận nơi, chúng tôi sẽ đến trực tiếp
+                  kiểm tra và sửa chữa tủ lạnh của bạn một cách nhanh chóng và
+                  tiện lợi trên <strong>khắp địa bàn Hà Nội</strong>.
+                </p>
+              </li>
+
+              <li class="refer__item even">
+                <span>Bảo hành dài hạn</span>
+
+                <p>
+                  Chúng tôi cam kết bảo hành dài hạn cho dịch vụ sửa chữa,
+                  mang đến sự an tâm và hài lòng tuyệt đối cho quý khách hàng.
+                </p>
+              </li>
+            </ul>
+
+            <img src="assets/img/image.png" alt="" style="margin-top: 10px" />
+          </div>
+        </div>
+
+        <div class="container__content">
+          <div class="container__content-lable" style="margin-bottom: 10px;">
+            <h1 id="position">Địa chỉ chi nhánh</h1>
+          </div>
+
+          <div class="row">
+            <div class="col c-12 m-12 l-4">
+              <ul class="content__list-position">
+                <li>
+                  477 Nguyễn Trãi
+                </li>
+
+                <li>
+                  28 Nguyễn Khánh Toàn
+                </li>
+
+                <li>
+                  268 Đường Láng
+                </li>
+
+                <li>
+                  Số 29 Định Công
+                </li>
+
+                <li>
+                  173 Xuân Thủy
+                </li>
+
+
+              </ul>
+            </div>
+
+            <div class="col c-12 m-12 l-4">
+              <ul class="content__list-position">
+                <li>
+                  110 Trần Duy Hưng
+                </li>
+
+                <li>
+                  124 Âu Cơ
+                </li>
+
+                <li>
+                  Số 16 Lý Nam Đế
+                </li>
+
+                <li>
+                  Số 364 Giải Phóng
+                </li>
+
+                <li>
+                  Số 29 Kim Mã
+                </li>
+
+
+              </ul>
+            </div>
+
+            <div class="col c-12 m-12 l-4">
+              <ul class="content__list-position">
+                <li>
+                  Số 171 Minh Khai
+
+                </li>
+
+                <li>
+                  CT3 Văn Quán
+                </li>
+
+                <li>
+                  CT3 Linh Đàm
+                </li>
+
+                <li>
+                  14 Hoàng Quốc Việt
+                </li>
+
+                <li>
+                  CT3 Mỹ Đình
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container__content">
+          <div class="container__content-lable">
+            <h1>Thông tin liên hệ</h1>
+          </div>
+
+          <div class="container__content-refer">
+            <ul class="content__list">
+              <li class="content__list-contact content__list-contact-odd">
+                <div class="contact__item contact__item-left">
+                  Thông tin về trung tâm:
+                </div>
+
+                <div class="contact__item contact__item-right">
+                  Trung tâm sửa chữa, bảo hành Điện Máy Hà Nội
+                </div>
+              </li>
+
+              <li class="content__list-contact">
+                <div class="contact__item contact__item-left">
+                  Hotline:
+                </div>
+
+                <div class="contact__item contact__item-right">
+                  <a href="tel:0818009318">08.1800.9318</a>
+                </div>
+              </li>
+
+              <li class="content__list-contact content__list-contact-odd">
+                <div class="contact__item contact__item-left">
+                  Tư vấn miễn phí:
+                </div>
+
+                <div class="contact__item contact__item-right">
+                  <a href="https://zalo.me/0974505838">Zalo: Điện Máy Hà Nội</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="container__content">
+          <div class="row">
+            <div class="col c-12 m-12 l-6">
+              <div class="container__content-lable min__height">
+                <h1>Những vấn đề, lỗi thường gặp của tủ lạnh Hitachi</h1>
+              </div>
+
+              <div class="container__content-refer">
+                <ul class="content__list">
+                  <li class="refer__item refer__item-paragraph">
+                    Tủ lạnh Hitachi bị mất nguồn (không có điện vào).
                   </li>
 
-                  <li class="top__menu-item">
-                    <a href="#position">Liên Hệ</a>
+                  <li class="refer__item refer__item-paragraph">
+                    Tủ lạnh Hitachi cánh cửa đóng không kín.
                   </li>
 
-                  <li class="top__menu-item">
-                    <a href="lg.html">Bảo hành máy giặt LG</a>
+                  <li class="refer__item refer__item-paragraph">
+                    Tủ lạnh Hitachi kém lạnh bên ngăn đông hoặc ngăn mát.
                   </li>
 
-                  <li class="top__menu-item">
-                    <a href="electrolux.html">Bảo hành máy giặt Electrolux</a>
+                  <li class="refer__item refer__item-paragraph">
+                    Tủ lạnh Hitachi không đông đá, không làm đá tự động.
+                  </li>
+
+                  <li class="refer__item refer__item-paragraph">
+                    Tủ lạnh Hitachi không rơi đá.
+                  </li>
+
+                  <li class="refer__item refer__item-paragraph">
+                    Tủ lạnh Hitachi quạt gió kêu to.
+                  </li>
+
+                  <li class="refer__item refer__item-paragraph">
+                    Tủ lạnh Hitachi bị mất đèn sáng trên mặt hiển thị.
+                  </li>
+
+                  <li class="refer__item refer__item-paragraph">
+                    Tủ lạnh Hitachi bị đóng đá ở dìa cánh tủ.
+                  </li>
+
+                  <li class="refer__item refer__item-paragraph">
+                    Tủ lạnh Hitachi báo lỗi F002, F003, F005, … F012, F013 ….
                   </li>
                 </ul>
               </div>
+            </div>
 
-              <input type="checkbox" name="" id="check" class="checkbox">
-              <label for="check" class="overlay"></label>
+            <div class="col c-12 m-12 l-6 magin-for-mobile">
+              <div class="container__content-lable min__height">
+                <h1>Quy trình sửa chữa</h1>
+              </div>
 
-              <label for="check" class="container__top-menu-mobile">
-                <i class="fa-solid fa-bars"></i>
-              </label>
-
-              <div class="container__menu-for-mobile">
-                <ul class="menu__list-bar">
-                  <div class="container__menu-list">
-                    <li class="menu__list-item">
-                      <a href="#home">Trang chủ</a>
-                    </li>
-
-                    <div class="space-menu"></div>
-                    <li class="menu__list-item">
-                      <a href="#refer">Giới thiệu</a>
-                    </li>
-                    <div class="space-menu"></div>
-                    <li class="menu__list-item">
-                      <a href="#service">Dịch vụ</a>
-                    </li>
-                    <div class="space-menu"></div>
-                    <li class="menu__list-item">
-                      <a href="#position">Liên hệ</a>
-                    </li>
-                  </div>
-                  <li class="menu__list-item back">
-                    <label for="check">Quay lại</label>
+              <div class="container__content-refer">
+                <ul class="content__list">
+                  <li class="content__list-item refer__item refer__item-paragraph">
+                    Tiếp nhận thông tin từ phía khách hàng qua Hotline.
                   </li>
 
-                  <li class="menu__list-item back">
-                    <a href="lg.html">Bảo hành máy giặt LG</a>
+                  <li class="content__list-item refer__item refer__item-paragraph">
+                    Điều hành nhân viên kỹ thuật kiểm tra tình trạng hư hỏng của tủ lạnh Hitachi.
                   </li>
 
-                  <li class="menu__list-item back">
-                    <a href="lg.html">Bảo hành máy giặt Electrolux</a>
+                  <li class="content__list-item refer__item refer__item-paragraph">
+                    Báo giá dịch vụ cho khách hàng.
+                  </li>
+
+                  <li class="content__list-item refer__item refer__item-paragraph">
+                    Tiến hành quy trình sửa chữa.
+                  </li>
+
+                  <li class="content__list-item refer__item refer__item-paragraph">
+                    Test cho máy hoạt động và bàn giao thiết bị.
+                  </li>
+
+                  <li class="content__list-item refer__item refer__item-paragraph">
+                    Tư vấn cho khách hàng.
+                  </li>
+
+                  <li class="content__list-item refer__item refer__item-paragraph">
+                    Nhận thanh toán và viết phiếu bảo hành cho khách.
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <div class="header__container-bottom"></div>
+          <img src="assets/img/sua-chua-dieu-hoa-lg-tai-ha-noi-2.jpg" style="margin-top: 30px;" alt="">
+        </div>
+
+        <div class="container__content">
+          <div class="container__content-lable" style="margin-bottom: 20px;">
+            <h1 id="refer">Về chúng tôi</h1>
+          </div>
+
+          <div class="container__content-refer">
+            <div class="row">
+
+              <div class="col c-12 m-6 l-3">
+                <div class="container__content-item">
+                  <div class="content__refer-label">
+                    <h1>10+</h1>
+                  </div>
+
+                  <div class="content__refer-content">
+                    Trung tâm có trên 10 năm kinh nghiệm về sửa chữa, bảo dưỡng tủ lạnh Hitachi.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col c-12 m-6 l-3">
+                <div class="container__content-item">
+                  <div class="content__refer-label">
+                    <h1>100%</h1>
+                  </div>
+
+                  <div class="content__refer-content">
+                    100% khách hàng hài lòng, phản hồi tốt về dịch vụ.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col c-12 m-6 l-3">
+                <div class="container__content-item">
+                  <div class="content__refer-label">
+                    <h1>30+</h1>
+                  </div>
+
+                  <div class="content__refer-content">
+                    Trên 30 chi nhánh bảo hành, sửa chữa trên toàn địa bàn Thành Phố Hà Nội.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col c-12 m-6 l-3">
+                <div class="container__content-item">
+                  <div class="content__refer-label">
+                    <h1>24/7</h1>
+                  </div>
+
+                  <div class="content__refer-content">
+                    Phục vụ 24/7, tất cả các ngày trong tuần, kể cả ngày nghỉ, luôn tận tâm với khách hàng.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container__content">
+          <div class="container__content-lable">
+            <h1>Một số phản hồi từ khách hàng</h1>
+          </div>
+
+          <div class="container__content-respond">
+            <div class="respond-item">
+              <div class="respond__client">
+                <img src="assets/img/avt.jpg" alt="">
+              </div>
+
+              <div class="respond__comment">
+                <span class="comment__name">Minh Tâm</span>
+                <br>
+                <span class="comment-position">Chung cư Vinhomes Smart City Tây Mỗ</span>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="comment__paragraph">
+                  Cá nhân mình sử dụng dịch vụ bên trung tâm cảm thấy rất oke. Dịch vụ chu đáo, tậm tâm và rất chuyên
+                  nghiệp, tủ lạnh nhà mình bị hỏng, không lạnh, mình gọi cho trung tâm thì khoảng 30p trung tâm đã có
+                  mặt. Rất chuyên nghiệp.
+                </p>
+              </div>
+            </div>
+
+            <hr>
+
+            <div class="respond-item">
+              <div class="respond__client">
+                <img src="assets/img/avt2.jpg" alt="">
+              </div>
+
+              <div class="respond__comment">
+                <span class="comment__name">Tuyết Nguyễn</span>
+                <br>
+                <span class="comment-position">Ngõ 212 Khương Đình Thanh Xuân</span>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="comment__paragraph">
+                  Chính sách bảo hành rõ ràng, hỗ trợ sau sửa chữa chu đáo, chắc chắn sẽ giới thiệu cho bạn bè và người
+                  thân.
+                </p>
+              </div>
+            </div>
+
+            <hr>
+
+            <div class="respond-item">
+              <div class="respond__client">
+                <img src="assets/img/avt3.jpg" alt="">
+              </div>
+
+              <div class="respond__comment">
+                <span class="comment__name">Hiệp Nguyễn</span>
+                <br>
+                <span class="comment-position">Bạch Thái Bưởi Văn Quán Hà Đông</span>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="comment__paragraph">
+                  Trung tâm bảo hành Hitachi tại Hà Nội rất uy tín, nhân viên làm việc chuyên nghiệp và tận tâm, luôn
+                  mang lại sự yên tâm cho khách hàng.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container__button-load">
+            <div class="button__load">
+              Xem thêm <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+          </div>
         </div>
       </div>
-    </header>
 
-    <div class="banner">
-      <div class="grid wide">
-        <div class="nav__banner">
-          <div class="nav__banner-slide fade mySlides">
-            <img
-              src="assets/img/picture/banner/Blue and White Geometric Real Estate LinkedIn Background Photo.png"
-              alt="Slide 1"
-            />
-          </div>
-          <div class="nav__banner-slide fade mySlides">
-            <img
-              src="assets/img/picture/banner/Blue Geometric Technology General Professional LinkedIn Banner.png"
-              alt="Slide 2"
-            />
+      <div class="col c-12 l-3 m-3">
+        <div class="container__sidebar">
+          <div class="container__sidebar-department">
+            <h1 class="container__sidebar-department-lable">
+              Chi nhánh tại Hà Nội:
+            </h1>
+            <hr />
+            <ul class="departments-list">
+              <li class="department">Quận Đống Đa</li>
+
+              <li class="department">Quận Ba Đình</li>
+
+              <li class="department">Quận Tây Hồ</li>
+
+              <li class="department">Quận Hai Bà Trưng</li>
+
+              <li class="department">Quận Hoàng Mai</li>
+
+              <li class="department">Quận Cầu Giấy</li>
+
+              <li class="department">Quận Long Biên</li>
+
+              <li class="department">Quận Thanh Xuân</li>
+
+              <li class="department">Các huyện ngoại thành khác ..</li>
+            </ul>
           </div>
 
-          <div class="nav__banner-slide fade mySlides">
-            <img src="assets/img/picture/banner/banner-hitachi.png" alt="">
-          </div>
+          <div class="container__content-button" style="margin-top: 30px;">
+            <div class="content__button button-tel">
+              <a href="tel:0818009318">08.1800.9318</a>
 
-          <div class="nav__banner-slide fade mySlides">
-            <img src="assets/img/picture/banner/Contact - hitachi - service.png" alt="">
+            </div>
+
+            <div class="content__button button-zalo">
+              <a href="https://zalo.me/0974505838">Tư vấn miễn phí</a>
+            </div>
           </div>
-          <!-- Navigation buttons -->
-          <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
       </div>
     </div>
+  </div>
 
+  <footer>
     <div class="grid wide">
       <div class="row">
-        <div class="col c-12 l-9 m-9">
-          <div class="container__content">
-            <div class="row">
-              <div class="col c-12 l-6 m-6">
-                <h1 id="home">Trung tâm bảo hành tủ lạnh Hitachi</h1>
+        <div class="col c-12 m-12 l-4">
+          <div class="footer__container">
+            <h1>Trung tâm bảo hành, sửa chữa tủ lạnh.</h1>
 
-                <div class="space">
+            <span class="footer__item">Sửa chữa, bảo hành trên toàn Thành Phố Hà Nội</span>
 
-                </div>
-                <p class="container__content-paragraph container__content-paragraph-slogan">
-                  Chuyên nghiệp - Uy tín - Giá cạnh tranh
-                </p>
+            <hr>
+            <span class="footer__item slogan">
+              Chuyên nghiệp - Uy tín - Giá cạnh tranh
+            </span>
 
-                <p class="container__content-paragraph">
-                  Đội ngũ kỹ thuật viên tay nghề cao, kinh nghiệm sửa tủ lạnh
-                  Hitachi tại Hà Nội, chuyên bảo hành và thay thế linh kiện
-                  chính hãng, luôn sẵn sàng phục vụ 24/7.
-                </p>
+            <hr>
 
-                <p class="container__content-paragraph" style="color: black">
-                  Liên hệ ngay:
-                </p>
-
-                <div class="container__content-button">
-                  <div class="content__button button-tel">
-                    Hotine:
-                    <a href="tel:0974505838">0974 505 838</a>
-
-                  </div>
-
-                  <div class="content__button button-zalo">
-                    <a href="https://zalo.me/0974505838">Tư vấn miễn phí</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col c-12 l-6 m-6">
-                <div class="">
-                  <img
-                    src="assets/img/picture/image.png"
-                    class="container__content-img"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="container__content">
-            <div class="container__content-lable">
-              <h1 id="service">Dịch vụ sửa chữa và bảo hành Tủ lạnh Hitachi</h1>
-            </div>
-
-            <div class="container__content-refer">
-              <ul class="refer__services">
-                <li class="refer__item even">
-                  <span>Dịch vụ sửa chữa chuyên nghiệp</span>
-
-                  <p>
-                    Chúng tôi cung cấp dịch vụ sửa chữa tủ lạnh Hitachi uy tín,
-                    nhanh chóng, với đội ngũ kỹ thuật viên giàu kinh nghiệm và
-                    tay nghề cao.
-                  </p>
-                </li>
-
-                <li class="refer__item">
-                  <span>Chuyên môn sâu về tủ lạnh Hitachi</span>
-
-                  <p>
-                    Đội ngũ kỹ thuật viên của chúng tôi đã có nhiều năm kinh
-                    nghiệm trong việc sửa chữa và bảo trì các dòng tủ lạnh
-                    Hitachi, đảm bảo hiệu quả sửa chữa tối ưu.
-                  </p>
-                </li>
-
-                <li class="refer__item even">
-                  <span>Sử dụng linh kiện chính hãng</span>
-
-                  <p>
-                    Đảm bảo sửa chữa bằng linh kiện chính hãng, chất lượng cao,
-                    giúp tủ lạnh hoạt động bền bỉ và ổn định sau khi sửa chữa.
-                  </p>
-                </li>
-
-                <li class="refer__item">
-                  <span>Dịch vụ sửa chữa tận nơi</span>
-
-                  <p>
-                    Với dịch vụ sửa chữa tận nơi, chúng tôi sẽ đến trực tiếp
-                    kiểm tra và sửa chữa tủ lạnh của bạn một cách nhanh chóng và
-                    tiện lợi trên <strong>khắp địa bàn Hà Nội</strong>.
-                  </p>
-                </li>
-
-                <li class="refer__item even">
-                  <span>Bảo hành dài hạn</span>
-
-                  <p>
-                    Chúng tôi cam kết bảo hành dài hạn cho dịch vụ sửa chữa,
-                    mang đến sự an tâm và hài lòng tuyệt đối cho quý khách hàng.
-                  </p>
-                </li>
-              </ul>
-
-              <img src="assets/img/image.png" alt="" style="margin-top: 10px" />
-            </div>
-          </div>
-
-          <div class="container__content">
-            <div class="container__content-lable" style="margin-bottom: 10px;">
-              <h1 id="position">Địa chỉ chi nhánh</h1>
-            </div>
-
-            <div class="row">
-              <div class="col c-12 m-12 l-4">
-                <ul class="content__list-position">
-                  <li>
-                    477 Nguyễn Trãi
-                  </li>
-
-                  <li>
-                    28 Nguyễn Khánh Toàn
-                  </li>
-
-                  <li>
-                    268 Đường Láng
-                  </li>
-
-                  <li>
-                    Số 29 Định  Công
-                  </li>
-
-                  <li>
-                    173 Xuân Thủy
-                  </li>
-
-
-                </ul>
-              </div>
-
-              <div class="col c-12 m-12 l-4">
-                <ul class="content__list-position">
-                  <li>
-                    110 Trần Duy Hưng
-                  </li>
-
-                  <li>
-                    124 Âu Cơ
-                  </li>
-
-                  <li>
-                    Số 16 Lý Nam Đế
-                  </li>
-
-                  <li>
-                    Số 364 Giải Phóng
-                  </li>
-
-                  <li>
-                    Số 29 Kim Mã
-                  </li>
-
-
-                </ul>
-              </div>
-
-              <div class="col c-12 m-12 l-4">
-                <ul class="content__list-position">
-                  <li>
-                    Số 171 Minh Khai
-
-                  </li>
-
-                  <li>
-                    CT3 Văn Quán
-                  </li>
-
-                  <li>
-                    CT3 Linh Đàm
-                  </li>
-
-                  <li>
-                    14 Hoàng Quốc Việt
-                  </li>
-
-                  <li>
-                    CT3 Mỹ Đình
-                  </li>
-
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="container__content">
-            <div class="container__content-lable">
-              <h1>Thông tin liên hệ</h1>
-            </div>
-
-            <div class="container__content-refer">
-              <ul class="content__list">
-                <li class="content__list-contact content__list-contact-odd">
-                  <div class="contact__item contact__item-left">
-                    Thông tin về trung tâm:
-                  </div>
-
-                  <div class="contact__item contact__item-right">
-                    Trung tâm sửa chữa, bảo hành Điện Máy Hà Nội
-                  </div>
-                </li>
-
-                <li class="content__list-contact">
-                  <div class="contact__item contact__item-left">
-                    Hotline:
-                  </div>
-
-                  <div class="contact__item contact__item-right">
-                    <a href="tel:0974505838">0974.505.838</a>
-                  </div>
-                </li>
-
-                <li class="content__list-contact content__list-contact-odd">
-                  <div class="contact__item contact__item-left">
-                    Tư vấn miễn phí:
-                  </div>
-
-                  <div class="contact__item contact__item-right">
-                    <a href="https://zalo.me/0974505838">Zalo: Điện Máy Hà Nội</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-          </div>
-
-          <div class="container__content">
-            <div class="row">
-              <div class="col c-12 m-12 l-6">
-                <div class="container__content-lable min__height">
-                  <h1>Những vấn đề, lỗi thường gặp của tủ lạnh Hitachi</h1>
+            <ul class="content__list">
+              <li class="content__list-contact content__list-contact-odd">
+                <div class="contact__item contact__item-left">
+                  Thông tin về trung tâm:
                 </div>
 
-                <div class="container__content-refer">
-                  <ul class="content__list">
-                    <li class="refer__item refer__item-paragraph">
-                      Tủ lạnh Hitachi bị mất nguồn (không có điện vào).
-                    </li>
-
-                    <li class="refer__item refer__item-paragraph">
-                      Tủ lạnh Hitachi cánh cửa đóng không kín.
-                    </li>
-
-                    <li class="refer__item refer__item-paragraph">
-                      Tủ lạnh Hitachi kém lạnh bên ngăn đông hoặc ngăn mát.
-                    </li>
-
-                    <li class="refer__item refer__item-paragraph">
-                      Tủ lạnh Hitachi không đông đá, không làm đá tự động.
-                    </li>
-
-                    <li class="refer__item refer__item-paragraph">
-                      Tủ lạnh Hitachi không rơi đá.
-                    </li>
-
-                    <li class="refer__item refer__item-paragraph">
-                      Tủ lạnh Hitachi quạt gió kêu to.
-                    </li>
-
-                    <li class="refer__item refer__item-paragraph">
-                      Tủ lạnh Hitachi bị mất đèn sáng trên mặt hiển thị.
-                    </li>
-
-                    <li class="refer__item refer__item-paragraph">
-                      Tủ lạnh Hitachi bị đóng đá ở dìa cánh tủ.
-                    </li>
-
-                    <li class="refer__item refer__item-paragraph">
-                      Tủ lạnh Hitachi báo lỗi F002, F003, F005, … F012, F013 ….
-                    </li>
-                  </ul>
+                <div class="contact__item contact__item-right">
+                  Trung tâm sửa chữa, bảo hành Điện Máy Hà Nội
                 </div>
-              </div>
+              </li>
 
-              <div class="col c-12 m-12 l-6 magin-for-mobile">
-                <div class="container__content-lable min__height">
-                  <h1>Quy trình sửa chữa</h1>
+              <li class="content__list-contact">
+                <div class="contact__item contact__item-left">
+                  Hotline:
                 </div>
 
-                <div class="container__content-refer">
-                  <ul class="content__list">
-                    <li class="content__list-item refer__item refer__item-paragraph">
-                      Tiếp nhận thông tin từ phía khách hàng qua Hotline.
-                    </li>
-
-                    <li class="content__list-item refer__item refer__item-paragraph">
-                      Điều hành nhân viên kỹ thuật kiểm tra tình trạng hư hỏng của tủ lạnh Hitachi.
-                    </li>
-
-                    <li class="content__list-item refer__item refer__item-paragraph">
-                      Báo giá dịch vụ cho khách hàng.
-                    </li>
-
-                    <li class="content__list-item refer__item refer__item-paragraph">
-                      Tiến hành quy trình sửa chữa.
-                    </li>
-
-                    <li class="content__list-item refer__item refer__item-paragraph">
-                      Test cho máy hoạt động và bàn giao thiết bị.
-                    </li>
-
-                    <li class="content__list-item refer__item refer__item-paragraph">
-                      Tư vấn cho khách hàng.
-                    </li>
-
-                    <li class="content__list-item refer__item refer__item-paragraph">
-                      Nhận thanh toán và viết phiếu bảo hành cho khách.
-                    </li>
-                  </ul>
+                <div class="contact__item contact__item-right">
+                  <a href="tel:0818009318">08.1800.9318</a>
                 </div>
-              </div>
-            </div>
+              </li>
 
-            <img src="assets/img/sua-chua-dieu-hoa-lg-tai-ha-noi-2.jpg" style="margin-top: 30px;" alt="">
-          </div>
-
-          <div class="container__content">
-            <div class="container__content-lable" style="margin-bottom: 20px;">
-              <h1 id="refer">Về chúng tôi</h1>
-            </div>
-
-            <div class="container__content-refer">
-              <div class="row">
-
-                <div class="col c-12 m-6 l-3">
-                  <div class="container__content-item">
-                    <div class="content__refer-label">
-                      <h1>10+</h1>
-                    </div>
-
-                    <div class="content__refer-content">
-                      Trung tâm có trên 10 năm kinh nghiệm về sửa chữa, bảo dưỡng tủ lạnh Hitachi.
-                    </div>
-                  </div>
+              <li class="content__list-contact content__list-contact-odd">
+                <div class="contact__item contact__item-left">
+                  Tư vấn miễn phí:
                 </div>
 
-                <div class="col c-12 m-6 l-3">
-                  <div class="container__content-item">
-                    <div class="content__refer-label">
-                      <h1>100%</h1>
-                    </div>
-
-                    <div class="content__refer-content">
-                      100% khách hàng hài lòng, phản hồi tốt về dịch vụ.
-                    </div>
-                  </div>
+                <div class="contact__item contact__item-right">
+                  <a href="https://zalo.me/0974505838">Zalo: Điện Máy Hà Nội</a>
                 </div>
-
-                <div class="col c-12 m-6 l-3">
-                  <div class="container__content-item">
-                    <div class="content__refer-label">
-                      <h1>30+</h1>
-                    </div>
-
-                    <div class="content__refer-content">
-                      Trên 30 chi nhánh bảo hành, sửa chữa trên toàn địa bàn Thành Phố Hà Nội.
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col c-12 m-6 l-3">
-                  <div class="container__content-item">
-                    <div class="content__refer-label">
-                      <h1>24/7</h1>
-                    </div>
-
-                    <div class="content__refer-content">
-                      Phục vụ 24/7, tất cả các ngày trong tuần, kể cả ngày nghỉ, luôn tận tâm với khách hàng.
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="container__content">
-            <div class="container__content-lable">
-              <h1>Một số phản hồi từ khách hàng</h1>
-            </div>
-
-            <div class="container__content-respond">
-              <div class="respond-item">
-                <div class="respond__client">
-                  <img src="assets/img/avt.jpg" alt="">
-                </div>
-
-                <div class="respond__comment">
-                  <span class="comment__name">Minh Tâm</span>
-                  <br>
-                  <span class="comment-position">Chung cư Vinhomes Smart City Tây Mỗ</span>
-                  <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-
-                  <p class="comment__paragraph">
-                    Cá nhân mình sử dụng dịch vụ bên trung tâm cảm thấy rất oke. Dịch vụ chu đáo, tậm tâm và rất chuyên nghiệp, tủ lạnh nhà mình bị hỏng, không lạnh, mình gọi cho trung tâm thì khoảng 30p trung tâm đã có mặt. Rất chuyên nghiệp.
-                  </p>
-                </div>
-              </div>
-
-              <hr>
-
-              <div class="respond-item">
-                <div class="respond__client">
-                  <img src="assets/img/avt2.jpg" alt="">
-                </div>
-
-                <div class="respond__comment">
-                  <span class="comment__name">Tuyết Nguyễn</span>
-                  <br>
-                  <span class="comment-position">Ngõ 212 Khương Đình Thanh Xuân</span>
-                  <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-
-                  <p class="comment__paragraph">
-                    Chính sách bảo hành rõ ràng, hỗ trợ sau sửa chữa chu đáo, chắc chắn sẽ giới thiệu cho bạn bè và người thân.
-                  </p>
-                </div>
-              </div>
-
-              <hr>
-
-              <div class="respond-item">
-                <div class="respond__client">
-                  <img src="assets/img/avt3.jpg" alt="">
-                </div>
-
-                <div class="respond__comment">
-                  <span class="comment__name">Hiệp Nguyễn</span>
-                  <br>
-                  <span class="comment-position">Bạch Thái Bưởi Văn Quán Hà Đông</span>
-                  <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-
-                  <p class="comment__paragraph">
-                    Trung tâm bảo hành Hitachi tại Hà Nội rất uy tín, nhân viên làm việc chuyên nghiệp và tận tâm, luôn mang lại sự yên tâm cho khách hàng.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="container__button-load">
-              <div class="button__load">
-                Xem thêm <i class="fa-solid fa-chevron-down"></i>
-              </div>
-
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
 
-        <div class="col c-12 l-3 m-3">
-          <div class="container__sidebar">
-            <div class="container__sidebar-department">
-              <h1 class="container__sidebar-department-lable">
-                Chi nhánh tại Hà Nội:
-              </h1>
-              <hr />
-              <ul class="departments-list">
-                <li class="department">Quận Đống Đa</li>
+        <div class="col c-12 m-12 l-4">
 
-                <li class="department">Quận Ba Đình</li>
+        </div>
 
-                <li class="department">Quận Tây Hồ</li>
-
-                <li class="department">Quận Hai Bà Trưng</li>
-
-                <li class="department">Quận Hoàng Mai</li>
-
-                <li class="department">Quận Cầu Giấy</li>
-
-                <li class="department">Quận Long Biên</li>
-
-                <li class="department">Quận Thanh Xuân</li>
-
-                <li class="department">Các huyện ngoại thành khác ..</li>
-              </ul>
-            </div>
-
-            <div class="container__content-button" style="margin-top: 30px;">
-              <div class="content__button button-tel">
-                <a href="tel:0974505838">0974 505 838</a>
-
-              </div>
-
-              <div class="content__button button-zalo">
-                <a href="https://zalo.me/0974505838">Tư vấn miễn phí</a>
-              </div>
-            </div>
+        <div class="col c-12 m-12 l-4 footer__magin">
+          <div class="container__map">
+            <h1>Trụ sở</h1>
+            <span>
+              Trụ sở chính tại Hà Nội.
+            </span>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.2858536678496!2d105.83912426522403!3d20.980854873289754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac433103fe05%3A0xde892ee1e2487806!2zOTM3IMSQLiBHaeG6o2kgUGjDs25nLCBHacOhcCBCw6F0LCBIb8OgbmcgTWFpLCBIw6AgTuG7mWkgMTE3MTYsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1742651640587!5m2!1svi!2s"
+              width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
-    </div>
 
-    <footer>
-      <div class="grid wide">
-        <div class="row">
-          <div class="col c-12 m-12 l-4">
-            <div class="footer__container">
-              <h1>Trung tâm bảo hành, sửa chữa tủ lạnh.</h1>
+      <hr>
 
-              <span class="footer__item">Sửa chữa, bảo hành trên toàn Thành Phố Hà Nội</span>
-
-              <hr>
-              <span class="footer__item slogan">
-                Chuyên nghiệp - Uy tín - Giá cạnh tranh
-              </span>
-
-              <hr>
-
-              <ul class="content__list">
-                <li class="content__list-contact content__list-contact-odd">
-                  <div class="contact__item contact__item-left">
-                    Thông tin về trung tâm:
-                  </div>
-
-                  <div class="contact__item contact__item-right">
-                    Trung tâm sửa chữa, bảo hành Điện Máy Hà Nội
-                  </div>
-                </li>
-
-                <li class="content__list-contact">
-                  <div class="contact__item contact__item-left">
-                    Hotline:
-                  </div>
-
-                  <div class="contact__item contact__item-right">
-                    <a href="tel:0974505838">0974.505.838</a>
-                  </div>
-                </li>
-
-                <li class="content__list-contact content__list-contact-odd">
-                  <div class="contact__item contact__item-left">
-                    Tư vấn miễn phí:
-                  </div>
-
-                  <div class="contact__item contact__item-right">
-                    <a href="https://zalo.me/0974505838">Zalo: Điện Máy Hà Nội</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col c-12 m-12 l-4">
-
-          </div>
-
-          <div class="col c-12 m-12 l-4 footer__magin">
-            <div class="container__map">
-              <h1>Trụ sở</h1>
-              <span>
-                Trụ sở chính tại Hà Nội.
-              </span>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.2858536678496!2d105.83912426522403!3d20.980854873289754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac433103fe05%3A0xde892ee1e2487806!2zOTM3IMSQLiBHaeG6o2kgUGjDs25nLCBHacOhcCBCw6F0LCBIb8OgbmcgTWFpLCBIw6AgTuG7mWkgMTE3MTYsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1742651640587!5m2!1svi!2s" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-        </div>
-
-        <hr>
-
-        <div class="container__end">
-          Copyright © 2025 Bảo Hành Điện Máy Hà Nội.
+      <div class="container__end">
+        Copyright © 2025 Bảo Hành Điện Máy Hà Nội.
       </div>
-    </footer>
+  </footer>
 
-    <div class="contact">
-      <a href="tel:0974505838" class="zoom">
-        <div class="phone" id="zaloButton">
-          <i class="fa-solid fa-phone"></i>
+  <!-- Nút gọi điện thoại nổi -->
+  <div id="button-contact-vr" class="active">
+    <div id="gom-all-in-one" style="margin-bottom: 10px">
+      <!-- Phone -->
+      <div id="phone-vr" class="button-contact">
+        <div class="phone-vr">
+          <div class="phone-vr-circle-fill"></div>
+          <div class="phone-vr-img-circle">
+            <a href="tel:0818009318">
+              <i class="fas fa-phone fa-xl phone-icon-shake" style="color: white;"></i>
+            </a>
+          </div>
         </div>
-      </a>
+      </div>
+      <div class="phone-bar">
+        <a href="tel:0818009318">
+          <span class="text-phone">08.1800.9318</span>
+        </a>
+      </div>
+      <!-- End Phone -->
 
-      <!-- <a href="https://zalo.me/0974505838" target="_blank" class="zoom">
-        <div class="phone zalo" id="zaloButton">
-          <svg
-            width="50"
-            height="50"
-            viewBox="0 0 50 50"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M22.782 0.166016H27.199C33.2653 0.166016 36.8103 1.05701 39.9572 2.74421C43.1041 4.4314 45.5875 6.89585 47.2557 10.0428C48.9429 13.1897 49.8339 16.7347 49.8339 22.801V27.1991C49.8339 33.2654 48.9429 36.8104 47.2557 39.9573C45.5685 43.1042 43.1041 45.5877 39.9572 47.2559C36.8103 48.9431 33.2653 49.8341 27.199 49.8341H22.8009C16.7346 49.8341 13.1896 48.9431 10.0427 47.2559C6.89583 45.5687 4.41243 43.1042 2.7442 39.9573C1.057 36.8104 0.166016 33.2654 0.166016 27.1991V22.801C0.166016 16.7347 1.057 13.1897 2.7442 10.0428C4.43139 6.89585 6.89583 4.41245 10.0427 2.74421C13.1707 1.05701 16.7346 0.166016 22.782 0.166016Z"
-              fill="#0068FF"
-            />
-            <path
-              opacity="0.12"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M49.8336 26.4736V27.1994C49.8336 33.2657 48.9427 36.8107 47.2555 39.9576C45.5683 43.1045 43.1038 45.5879 39.9569 47.2562C36.81 48.9434 33.265 49.8344 27.1987 49.8344H22.8007C17.8369 49.8344 14.5612 49.2378 11.8104 48.0966L7.27539 43.4267L49.8336 26.4736Z"
-              fill="#001A33"
-            />
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M7.779 43.5892C10.1019 43.846 13.0061 43.1836 15.0682 42.1825C24.0225 47.1318 38.0197 46.8954 46.4923 41.4732C46.8209 40.9803 47.1279 40.4677 47.4128 39.9363C49.1062 36.7779 50.0004 33.22 50.0004 27.1316V22.7175C50.0004 16.629 49.1062 13.0711 47.4128 9.91273C45.7385 6.75436 43.2461 4.28093 40.0877 2.58758C36.9293 0.894239 33.3714 0 27.283 0H22.8499C17.6644 0 14.2982 0.652754 11.4699 1.89893C11.3153 2.03737 11.1636 2.17818 11.0151 2.32135C2.71734 10.3203 2.08658 27.6593 9.12279 37.0782C9.13064 37.0921 9.13933 37.1061 9.14889 37.1203C10.2334 38.7185 9.18694 41.5154 7.55068 43.1516C7.28431 43.399 7.37944 43.5512 7.779 43.5892Z"
-              fill="white"
-            />
-            <path
-              d="M20.5632 17H10.8382V19.0853H17.5869L10.9329 27.3317C10.7244 27.635 10.5728 27.9194 10.5728 28.5639V29.0947H19.748C20.203 29.0947 20.5822 28.7156 20.5822 28.2606V27.1421H13.4922L19.748 19.2938C19.8428 19.1801 20.0134 18.9716 20.0893 18.8768L20.1272 18.8199C20.4874 18.2891 20.5632 17.8341 20.5632 17.2844V17Z"
-              fill="#0068FF"
-            />
-            <path
-              d="M32.9416 29.0947H34.3255V17H32.2402V28.3933C32.2402 28.7725 32.5435 29.0947 32.9416 29.0947Z"
-              fill="#0068FF"
-            />
-            <path
-              d="M25.814 19.6924C23.1979 19.6924 21.0747 21.8156 21.0747 24.4317C21.0747 27.0478 23.1979 29.171 25.814 29.171C28.4301 29.171 30.5533 27.0478 30.5533 24.4317C30.5723 21.8156 28.4491 19.6924 25.814 19.6924ZM25.814 27.2184C24.2785 27.2184 23.0273 25.9672 23.0273 24.4317C23.0273 22.8962 24.2785 21.645 25.814 21.645C27.3495 21.645 28.6007 22.8962 28.6007 24.4317C28.6007 25.9672 27.3685 27.2184 25.814 27.2184Z"
-              fill="#0068FF"
-            />
-            <path
-              d="M40.4867 19.6162C37.8516 19.6162 35.7095 21.7584 35.7095 24.3934C35.7095 27.0285 37.8516 29.1707 40.4867 29.1707C43.1217 29.1707 45.2639 27.0285 45.2639 24.3934C45.2639 21.7584 43.1217 19.6162 40.4867 19.6162ZM40.4867 27.2181C38.9322 27.2181 37.681 25.9669 37.681 24.4124C37.681 22.8579 38.9322 21.6067 40.4867 21.6067C42.0412 21.6067 43.2924 22.8579 43.2924 24.4124C43.2924 25.9669 42.0412 27.2181 40.4867 27.2181Z"
-              fill="#0068FF"
-            />
-            <path
-              d="M29.4562 29.0944H30.5747V19.957H28.6221V28.2793C28.6221 28.7153 29.0012 29.0944 29.4562 29.0944Z"
-              fill="#0068FF"
-            />
-          </svg>
-        </div>
-      </a> -->
     </div>
 
-    <script src="assets/js/main.js"></script>
-  </body>
+    <div id="gom-all-in-one">
+      <!-- zalo -->
+      <div id="phone-vr" class="button-contact">
+        <div class="phone-vr">
+          <div class="phone-vr-circle-fill-zalo"></div>
+          <div class="phone-vr-img-circle zalo">
+            <a href="https://zalo.me/0974505838">
+              <img class="phone-icon-shake"
+                src="https://ntrthanh.github.io/bao-hanh-dien-may-ha-noi/static/img/icon/zalo.png" alt=""
+                style="height: 50px; width: 50px; margin: 0px">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="phone-bar phone-bar-zalo">
+        <a href="https://zalo.me/0974505838">
+          <span class="text-phone">Zalo: 0974505838</span>
+        </a>
+      </div>
+      <!-- End Phone -->
+
+    </div>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>

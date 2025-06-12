@@ -169,178 +169,179 @@
             text-decoration: none;
             display: inline-block;
         }
-#button-contact-vr {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    z-index: 9999;
-}
 
-.phone-vr {
-    position: relative;
-    width: 60px;
-    height: 60px;
-}
+        #button-contact-vr {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 9999;
+        }
 
-.phone-vr-circle-fill {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    position: absolute;
-    animation: pulse 1.5s infinite;
-    background-color: #f20000;
-    opacity: 0.7;
-    box-shadow: 0 0 0 0 #f20000;
-}
+        .phone-vr {
+            position: relative;
+            width: 60px;
+            height: 60px;
+        }
 
-.phone-vr-img-circle {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    position: absolute;
-    background-color: #f20000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+        .phone-vr-circle-fill {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            position: absolute;
+            animation: pulse 1.5s infinite;
+            background-color: #f20000;
+            opacity: 0.7;
+            box-shadow: 0 0 0 0 #f20000;
+        }
 
-.phone-bar {
-    margin-top: 10px;
-    text-align: center;
-    font-weight: bold;
-}
+        .phone-vr-img-circle {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: #f20000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-.phone-bar a {
-    background-color: #f20000;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 20px;
-    text-decoration: none;
-    display: inline-block;
-}
+        .phone-bar {
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
 
-
-.phone-bar {
-    margin-left: -30px;
-}
+        .phone-bar a {
+            background-color: #f20000;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
 
 
-/* Hiệu ứng nhấp nháy */
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-        opacity: 0.7;
-    }
-
-    50% {
-        transform: scale(1.2);
-        opacity: 0.3;
-    }
-
-    100% {
-        transform: scale(1);
-        opacity: 0.7;
-    }
-}
-
-#gom-all-in-one {
-    display: flex;
-}
-
-.phone-bar {
-    margin-left: -30px;
-}
-
-.text-phone {
-    margin-left: 30px;
-}
-
-@keyframes pulse-strong {
-    0% {
-        transform: scale(1);
-        opacity: 0.6;
-    }
-
-    50% {
-        transform: scale(1.7);
-        opacity: 0.2;
-    }
-
-    100% {
-        transform: scale(1);
-        opacity: 0.6;
-    }
-}
+        .phone-bar {
+            margin-left: -30px;
+        }
 
 
-@keyframes shake {
-    0% {
-        transform: rotate(0deg);
-    }
+        /* Hiệu ứng nhấp nháy */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 0.7;
+            }
 
-    25% {
-        transform: rotate(15deg);
-    }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.3;
+            }
 
-    50% {
-        transform: rotate(-15deg);
-    }
+            100% {
+                transform: scale(1);
+                opacity: 0.7;
+            }
+        }
 
-    75% {
-        transform: rotate(10deg);
-    }
+        #gom-all-in-one {
+            display: flex;
+        }
 
-    100% {
-        transform: rotate(0deg);
-    }
-}
+        .phone-bar {
+            margin-left: -30px;
+        }
 
-.phone-icon-shake {
-    animation: shake 0.6s infinite;
-}
+        .text-phone {
+            margin-left: 30px;
+        }
 
-@media (max-width: 768px) {
-    .phone-bar {
-        display: none;
-    }
-}
+        @keyframes pulse-strong {
+            0% {
+                transform: scale(1);
+                opacity: 0.6;
+            }
 
-.zalo {
-    background-color: #1E73BE;
-}
+            50% {
+                transform: scale(1.7);
+                opacity: 0.2;
+            }
 
-
-.phone-bar-zalo {
-    margin-top: 10px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.phone-bar-zalo a {
-    background-color: #1E73BE;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 20px;
-    text-decoration: none;
-    display: inline-block;
-}
+            100% {
+                transform: scale(1);
+                opacity: 0.6;
+            }
+        }
 
 
-.phone-bar-zalo {
-    margin-left: -30px;
-}
+        @keyframes shake {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            25% {
+                transform: rotate(15deg);
+            }
+
+            50% {
+                transform: rotate(-15deg);
+            }
+
+            75% {
+                transform: rotate(10deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        .phone-icon-shake {
+            animation: shake 0.6s infinite;
+        }
+
+        @media (max-width: 768px) {
+            .phone-bar {
+                display: none;
+            }
+        }
+
+        .zalo {
+            background-color: #1E73BE;
+        }
 
 
-.phone-vr-circle-fill-zalo {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    position: absolute;
-    animation: pulse 1.5s infinite;
-    background-color: #3a93ac;
-    opacity: 0.7;
-    box-shadow: 0 0 0 0 #1e6772;
-}
+        .phone-bar-zalo {
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .phone-bar-zalo a {
+            background-color: #1E73BE;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+
+        .phone-bar-zalo {
+            margin-left: -30px;
+        }
+
+
+        .phone-vr-circle-fill-zalo {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            position: absolute;
+            animation: pulse 1.5s infinite;
+            background-color: #3a93ac;
+            opacity: 0.7;
+            box-shadow: 0 0 0 0 #1e6772;
+        }
 
 
         .phone-bar-zalo {
@@ -586,8 +587,9 @@
                     <div class="phone-vr-circle-fill-zalo"></div>
                     <div class="phone-vr-img-circle zalo">
                         <a href="https://zalo.me/0974505838">
-                            <img class="phone-icon-shake" src="https://ntrthanh.github.io/bao-hanh-dien-may-ha-noi/static/img/icon/zalo.png" alt=""
-                                style="height: 50px; width: 50px; margin: 0px">
+                            <img class="phone-icon-shake"
+                                src="https://ntrthanh.github.io/bao-hanh-dien-may-ha-noi/static/img/icon/zalo.png"
+                                alt="" style="height: 50px; width: 50px; margin: 0px">
                         </a>
                     </div>
                 </div>
